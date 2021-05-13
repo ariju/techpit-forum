@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Main from "./Main";
 
 const PageNotFound = () => {
-  return <h1>{'404'}</h1>
-}
+  <Main>
+    return <h1>{"404"}</h1>
+  </Main>;
+};
 
-export default PageNotFound
+export default PageNotFound;

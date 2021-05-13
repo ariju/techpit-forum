@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Main from "./Main";
 
 const PageThread = () => {
-  return <h1>{'Thread'}</h1>
-}
+  <Main>
+    return <h1>{"Thread"}</h1>
+  </Main>;
+};
 
-export default PageThread
+export default PageThread;
